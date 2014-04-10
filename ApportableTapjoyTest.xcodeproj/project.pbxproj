@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2CB64718F728940029B6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2CB63818F728940029B6E4 /* AppDelegate.m */; };
+		2F2CB64918F728940029B6E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F2CB63B18F728940029B6E4 /* InfoPlist.strings */; };
+		2F2CB64A18F728940029B6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2CB63D18F728940029B6E4 /* main.m */; };
+		751183AC18753224000A8959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751183AB18753224000A8959 /* UIKit.framework */; };
+		751183AE18753224000A8959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751183AD18753224000A8959 /* Foundation.framework */; };
+		751183B018753224000A8959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751183AF18753224000A8959 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F2CB63718F728940029B6E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F2CB63818F728940029B6E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F2CB63918F728940029B6E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2CB63A18F728940029B6E4 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		2F2CB63C18F728940029B6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F2CB63D18F728940029B6E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F2CB64118F728940029B6E4 /* configuration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
+		2F2CB64418F728940029B6E4 /* Release.final */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Release.final; sourceTree = "<group>"; };
+		2F2CB64518F728940029B6E4 /* Release.generated */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Release.generated; sourceTree = "<group>"; };
+		2F2CB64618F728940029B6E4 /* Release.overrides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Release.overrides.json; sourceTree = "<group>"; };
+		2F2CB65418F73C4C0029B6E4 /* TapjoyWrapper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = TapjoyWrapper.java; path = java/src/com/tapjoy/TapjoyWrapper.java; sourceTree = SOURCE_ROOT; };
+		2F2CB65618F73FA30029B6E4 /* tapjoyconnectlibrary.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = tapjoyconnectlibrary.jar; sourceTree = "<group>"; };
+		751183A818753224000A8959 /* ApportableTapjoyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApportableTapjoyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		751183AB18753224000A8959 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		751183AD18753224000A8959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		751183AF18753224000A8959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75F3112E187556120069686E /* ApplicationManifestExtras.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ApplicationManifestExtras.xml; sourceTree = "<group>"; };
+		75F3112F187556120069686E /* ManifestExtras.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ManifestExtras.xml; sourceTree = "<group>"; };
+		75F3113118756B250069686E /* TapjoyWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapjoyWrapper.h; sourceTree = "<group>"; };
+		75F3113218756B250069686E /* TapjoyWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapjoyWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		751183A518753224000A8959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751183AC18753224000A8959 /* UIKit.framework in Frameworks */,
+				751183AE18753224000A8959 /* Foundation.framework in Frameworks */,
+				751183B018753224000A8959 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2CB63618F728940029B6E4 /* ApportableTapjoyTest */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CB63718F728940029B6E4 /* AppDelegate.h */,
+				2F2CB63818F728940029B6E4 /* AppDelegate.m */,
+				2F2CB63918F728940029B6E4 /* Info.plist */,
+				2F2CB63A18F728940029B6E4 /* Prefix.pch */,
+				2F2CB63B18F728940029B6E4 /* InfoPlist.strings */,
+				2F2CB63D18F728940029B6E4 /* main.m */,
+			);
+			path = ApportableTapjoyTest;
+			sourceTree = "<group>";
+		};
+		2F2CB63E18F728940029B6E4 /* ApportableTapjoyTest.approj */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CB64018F728940029B6E4 /* assets */,
+				2F2CB64118F728940029B6E4 /* configuration.json */,
+				2F2CB64218F728940029B6E4 /* targets */,
+			);
+			path = ApportableTapjoyTest.approj;
+			sourceTree = "<group>";
+		};
+		2F2CB64018F728940029B6E4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		2F2CB64218F728940029B6E4 /* targets */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CB64318F728940029B6E4 /* ApportableJarTest */,
+			);
+			path = targets;
+			sourceTree = "<group>";
+		};
+		2F2CB64318F728940029B6E4 /* ApportableJarTest */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CB64418F728940029B6E4 /* Release.final */,
+				2F2CB64518F728940029B6E4 /* Release.generated */,
+				2F2CB64618F728940029B6E4 /* Release.overrides.json */,
+			);
+			path = ApportableJarTest;
+			sourceTree = "<group>";
+		};
+		7511839F18753224000A8959 = {
+			isa = PBXGroup;
+			children = (
+				751183C818753281000A8959 /* java */,
+				751183D018753281000A8959 /* java-wrappers */,
+				2F2CB63618F728940029B6E4 /* ApportableTapjoyTest */,
+				2F2CB63E18F728940029B6E4 /* ApportableTapjoyTest.approj */,
+				751183AA18753224000A8959 /* Frameworks */,
+				751183A918753224000A8959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		751183A918753224000A8959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				751183A818753224000A8959 /* ApportableTapjoyTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		751183AA18753224000A8959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				751183AB18753224000A8959 /* UIKit.framework */,
+				751183AD18753224000A8959 /* Foundation.framework */,
+				751183AF18753224000A8959 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		751183C818753281000A8959 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				75F3112F187556120069686E /* ManifestExtras.xml */,
+				75F3112E187556120069686E /* ApplicationManifestExtras.xml */,
+				751183CA18753281000A8959 /* libs */,
+				751183CB18753281000A8959 /* src */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		751183CA18753281000A8959 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CB65618F73FA30029B6E4 /* tapjoyconnectlibrary.jar */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		751183CB18753281000A8959 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				751183CC18753281000A8959 /* com */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		751183CC18753281000A8959 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				751183CD18753281000A8959 /* tapjoy */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		751183CD18753281000A8959 /* tapjoy */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CB65418F73C4C0029B6E4 /* TapjoyWrapper.java */,
+			);
+			name = tapjoy;
+			path = duksel;
+			sourceTree = "<group>";
+		};
+		751183D018753281000A8959 /* java-wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				75F3113118756B250069686E /* TapjoyWrapper.h */,
+				75F3113218756B250069686E /* TapjoyWrapper.m */,
+			);
+			path = "java-wrappers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		751183A718753224000A8959 /* ApportableTapjoyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751183C518753224000A8959 /* Build configuration list for PBXNativeTarget "ApportableTapjoyTest" */;
+			buildPhases = (
+				751183A418753224000A8959 /* Sources */,
+				751183A518753224000A8959 /* Frameworks */,
+				751183A618753224000A8959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApportableTapjoyTest;
+			productName = ApportableJarTest;
+			productReference = 751183A818753224000A8959 /* ApportableTapjoyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		751183A018753224000A8959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Duksel Corp.";
+			};
+			buildConfigurationList = 751183A318753224000A8959 /* Build configuration list for PBXProject "ApportableTapjoyTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7511839F18753224000A8959;
+			productRefGroup = 751183A918753224000A8959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751183A718753224000A8959 /* ApportableTapjoyTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		751183A618753224000A8959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2CB64918F728940029B6E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		751183A418753224000A8959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2CB64A18F728940029B6E4 /* main.m in Sources */,
+				2F2CB64718F728940029B6E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F2CB63B18F728940029B6E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F2CB63C18F728940029B6E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		751183C318753224000A8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		751183C418753224000A8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		751183C618753224000A8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ApportableTapjoyTest/Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/ApportableTapjoyTest/Info.plist";
+				PRODUCT_NAME = ApportableTapjoyTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		751183C718753224000A8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ApportableTapjoyTest/Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/ApportableTapjoyTest/Info.plist";
+				PRODUCT_NAME = ApportableTapjoyTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		751183A318753224000A8959 /* Build configuration list for PBXProject "ApportableTapjoyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751183C318753224000A8959 /* Debug */,
+				751183C418753224000A8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751183C518753224000A8959 /* Build configuration list for PBXNativeTarget "ApportableTapjoyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751183C618753224000A8959 /* Debug */,
+				751183C718753224000A8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 751183A018753224000A8959 /* Project object */;
+}

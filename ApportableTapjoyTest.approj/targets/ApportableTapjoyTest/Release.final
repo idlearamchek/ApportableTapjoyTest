@@ -1,0 +1,178 @@
+{
+    "assets": [
+        {
+            "asset": "ApportableTapjoyTest/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "ApportableTapjoyTest", 
+        "APPLICATION_IDENTIFIER": "com.apportable.ApportableTapjoyTest", 
+        "APPLICATION_MANIFEST_EXTRAS": [
+            "java/ApplicationManifestExtras.xml"
+        ], 
+        "APPLICATION_NAME": "ApportableTapjoyTest", 
+        "FEATURES": [
+            "opengles2", 
+            "portrait", 
+            "access_wifi_state", 
+            "access_network_state"
+        ], 
+        "ICU_CONFIG": "normal", 
+        "LONG_VERSION": "1.0", 
+        "MANIFEST_EXTRAS": [
+            "java/ManifestExtras.xml"
+        ], 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "ApportableTapjoyTest"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60100
+    }, 
+    "deps": [
+        "UIKit", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        {
+            "flag": "-DNS_BLOCK_ASSERTIONS=1", 
+            "type": "c++"
+        }, 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "ApportableTapjoyTest-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "ApportableTapjoyTest-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "ApportableTapjoyTest-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "ApportableTapjoyTest-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "ApportableTapjoyTest/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "Prefix.pch": {
+                    "key": "Prefix.pch", 
+                    "prefix": "ApportableTapjoyTest/", 
+                    "suffix": "Prefix.pch"
+                }, 
+                "TapjoyWrapper.h": {
+                    "key": "TapjoyWrapper.h", 
+                    "prefix": "java-wrappers/", 
+                    "suffix": "TapjoyWrapper.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/tm/v3nwwt995p52ztk1kdkj76j40000gn/T/tmp42dBpn/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/Applications/Xcode4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/tm/v3nwwt995p52ztk1kdkj76j40000gn/T/tmp42dBpn/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/tm/v3nwwt995p52ztk1kdkj76j40000gn/T/tmp42dBpn/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "/Users/GiMartien/Downloads/ApportableJarTest/ApportableTapjoyTest/Info.plist"
+    ], 
+    "java_libs": [
+        "java/libs/tapjoyconnectlibrary.jar"
+    ], 
+    "java_res_dirs": [], 
+    "java_sourcepaths": [
+        "java/src"
+    ], 
+    "java_sources": [
+        {
+            "language": "unknown", 
+            "source": "java/src/com/tapjoy/TapjoyWrapper.java"
+        }
+    ], 
+    "libs": [], 
+    "link_flags": [], 
+    "modules": [], 
+    "pchs": [
+        "./ApportableTapjoyTest/Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ApportableTapjoyTest/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ApportableTapjoyTest/main.m"
+        }, 
+        {
+            "language": "objc", 
+            "source": "java-wrappers/TapjoyWrapper.m"
+        }
+    ], 
+    "storyboards": [], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "ApportableTapjoyTest.xcodeproj", 
+    "xibs": []
+}
